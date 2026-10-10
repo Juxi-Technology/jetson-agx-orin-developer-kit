@@ -1,0 +1,40 @@
+---
+title: 変更履歴
+description: >-
+  本ドキュメントセットの更新内容と、Jetson AGX Orin 開発キットの
+  JetPack リリース履歴。
+---
+
+# 変更履歴
+
+## ドキュメントの更新
+
+| 日付 | 変更内容 |
+|---|---|
+| 2026-09-26 | **JetPack 7.2.1 の 2 つのコンポーネントのバージョンを修正:CUDA 13.2.1 → 13.2.2、VPI 4.1.3 → 4.1.4。** どちらも NVIDIA の JetPack ダウンロードページから取得していた値でしたが、同ページの概要表には JetPack **7.2** の値が依然として掲載されています;バージョンは NVIDIA の Jetson apt リポジトリにおける `nvidia-jetpack` 7.2.1 の依存関係チェーンから確認しました。**システムの確認**(表の出典に関する注記)、**用語集**、**FAQ**、**JetPack 6.x → 7.2 移行ガイド**、および製品ページを更新しました。また、同ページがコンポーネントのバージョン情報源として引用されているすべての箇所(**ダウンロード**、**用語集**、**DeepStream**、**移行ガイド**)に「この表は遅れている」という注意書きを追加しました。 |
+| 2026-09-26 | **JetPack 7.2 における Isaac ROS のステータスを修正。** Isaac ROS 4.6.0(2026-08-18)が Jetson Orin + JetPack 7.2 のサポートを追加し、以前に JetPack ダウンロードページから取得していた「近日公開予定」というステータスは置き換えられました(同ページには依然としてその記載があります)。**ロボティクス**(新しいバージョンと ROS 2 ディストリビューションに関する指針)、**システムの確認**、**JetPack 6.x → 7.2 移行ガイド**、**FAQ** を更新しました。 |
+| 2026-09-24 | **用語集**と本**変更履歴**を追加。FAQ、トラブルシューティング、ダウンロードに Juxi Technology の連絡先(技術サポート、営業、製品に関するお問い合わせ)を追加;アクセサリー向けに Juxi 製品カタログへのリンクを追加。 |
+| 2026-09-23 | ドキュメントセットをドラフトとして初公開:クイックスタート、書き込みと更新、システムの確認、製品概要、インターフェースとハードウェアレイアウト、FAQ、トラブルシューティング、ダウンロード、および JetPack 6.x → 7.2 移行ガイド。すべてのページは NVIDIA 公式ドキュメントに基づいて執筆。 |
+
+## 本キットの JetPack リリース
+
+| JetPack | Jetson Linux (L4T) | 日付 | 備考 |
+|---|---|---|---|
+| **7.2.1** | **39.2.1** | 2026-08 | **最新。** 修正とセキュリティアップデート;T3000 エミュレーション;ビデオパイプライン向けエージェントスキル。 |
+| 7.2 | 39.2.0 | 2026-06 | Jetson Orin ファミリーを JetPack 7(Ubuntu 24.04、カーネル 6.8、CUDA 13)に導いた最初のリリース。 |
+| 6.x | 36.x | 2024–2025 | 前世代(Ubuntu 22.04、カーネル 5.15、CUDA 12)——まだこの世代を使用している場合はアーカイブを参照し、当社の[移行ガイド](./jetpack-6-to-7.md)をご覧ください。 |
+
+完全な履歴:[JetPack Archive](https://developer.nvidia.com/embedded/jetpack-archive) · [Jetson Linux Archive](https://developer.nvidia.com/embedded/jetson-linux-archive)
+
+キットを更新するには**[書き込みと更新](./flashing-and-updates.md)**、
+現在実行している内容を確認するには**[システムの確認](./verify-your-system.md)**をご覧ください。
+
+## 出典
+
+- [JetPack SDK Downloads](https://developer.nvidia.com/embedded/jetpack/downloads)(2026-09-24 に確認)
+- [Jetson Linux 39.2.0 Release Notes (PDF)](https://docs.nvidia.com/jetson/archives/r39.2/ReleaseNotes/Jetson_Linux_Release_Notes_r39.2.pdf)(2026-09-24 に確認)
+
+---
+
+NVIDIA® および Jetson™ は NVIDIA Corporation の商標です。本ページは
+Juxi Technology によって公開されており、NVIDIA の公式出版物ではありません。
