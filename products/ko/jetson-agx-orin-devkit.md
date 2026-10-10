@@ -17,7 +17,7 @@ NVIDIA® Jetson AGX Orin™ 개발자 키트는 Jetson Orin 패밀리의 플래�
 - **2048코어 NVIDIA Ampere 아키텍처 GPU, 64개 Tensor 코어 탑재** *(NVIDIA)*
 - **사전 플래싱 출고** — eMMC에는 L4T BSP 이미지가 들어 있어 개봉 즉시 Ubuntu로 바로 부팅됩니다
 - **다른 Jetson Orin 모듈 에뮬레이션** — 다시 플래싱하여 AGX Orin, Orin NX 또는 Orin Nano의 성능/전력 특성을 에뮬레이션할 수 있습니다 *(NVIDIA User Guide)*
-- **현재 소프트웨어: JetPack 7.2.1** (Jetson Linux 39.2.1, Ubuntu 24.04, CUDA 13.2.1) — 업데이트 경로는 Jetson ISO이며 호스트 PC가 필요하지 않습니다
+- **현재 소프트웨어: JetPack 7.2.1** (Jetson Linux 39.2.1, Ubuntu 24.04, CUDA 13.2.2) — 업데이트 경로는 Jetson ISO이며 호스트 PC가 필요하지 않습니다
 
 **사용 사례**: 온디바이스 LLM/에이전트 AI, 멀티 스트림 영상 분석, 로보틱스 인지, 엣지 생성형 AI.
 

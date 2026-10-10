@@ -17,7 +17,7 @@ NVIDIA® Jetson AGX Orin™ 開發者套件是 Jetson Orin 家族的旗艦級開
 - **2048 核心 NVIDIA Ampere 架構 GPU,內含 64 個 Tensor 核心** *(NVIDIA)*
 - **出廠預先刷機**——eMMC 已預先燒錄 L4T BSP 映像,開箱即可直接開機進入 Ubuntu
 - **可模擬其他 Jetson Orin 模組**——重新刷機即可模擬 AGX Orin、Orin NX 或 Orin Nano 的效能/功耗特性 *(NVIDIA User Guide)*
-- **目前軟體:JetPack 7.2.1**(Jetson Linux 39.2.1、Ubuntu 24.04、CUDA 13.2.1)——更新方式是 Jetson ISO,無需主機 PC
+- **目前軟體:JetPack 7.2.1**(Jetson Linux 39.2.1、Ubuntu 24.04、CUDA 13.2.2)——更新方式是 Jetson ISO,無需主機 PC
 
 **適用場景**:裝置端 LLM/智能體 AI、多路視頻分析、機器人感知、邊緣生成式 AI。
 

@@ -21,7 +21,7 @@ Points forts :
 - **GPU NVIDIA d'architecture Ampere à 2048 cœurs avec 64 Tensor Cores** *(NVIDIA)*
 - **Livré préflashé** — l'eMMC contient une image BSP L4T ; Ubuntu démarre directement, prêt à l'emploi
 - **Émule d'autres modules Jetson Orin** — reflashez pour émuler les caractéristiques de performances et de consommation de l'AGX Orin, de l'Orin NX ou de l'Orin Nano *(Guide de l'utilisateur NVIDIA)*
-- **Logiciel actuel : JetPack 7.2.1** (Jetson Linux 39.2.1, Ubuntu 24.04, CUDA 13.2.1) — la voie de mise à jour est le Jetson ISO, aucun PC hôte requis
+- **Logiciel actuel : JetPack 7.2.1** (Jetson Linux 39.2.1, Ubuntu 24.04, CUDA 13.2.2) — la voie de mise à jour est le Jetson ISO, aucun PC hôte requis
 
 **Cas d'usage** : LLM/IA agentique embarqués, analyse vidéo multi-flux, perception
 robotique, IA générative en périphérie.

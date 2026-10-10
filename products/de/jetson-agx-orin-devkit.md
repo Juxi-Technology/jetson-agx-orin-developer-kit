@@ -21,7 +21,7 @@ Highlights:
 - **NVIDIA-Ampere-GPU mit 2048 Kernen und 64 Tensor Cores** *(NVIDIA)*
 - **Wird vorgeflasht ausgeliefert** — das eMMC enthält ein L4T-BSP-Abbild; startet ab Werk direkt in Ubuntu
 - **Emuliert andere Jetson-Orin-Module** — durch erneutes Flashen lassen sich die Leistungs- und Leistungsaufnahme-Eigenschaften von AGX Orin, Orin NX oder Orin Nano emulieren *(Developer Kit User Guide)*
-- **Aktuelle Software: JetPack 7.2.1** (Jetson Linux 39.2.1, Ubuntu 24.04, CUDA 13.2.1) — der Update-Weg ist das Jetson-ISO, kein Host-PC erforderlich
+- **Aktuelle Software: JetPack 7.2.1** (Jetson Linux 39.2.1, Ubuntu 24.04, CUDA 13.2.2) — der Update-Weg ist das Jetson-ISO, kein Host-PC erforderlich
 
 **Anwendungsfälle**: LLM-/agentische KI direkt auf dem Gerät, Multi-Stream-Videoanalyse,
 Robotik-Wahrnehmung, generative KI am Edge.

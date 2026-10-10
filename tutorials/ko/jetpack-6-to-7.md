@@ -65,7 +65,7 @@ Jetson Linux 39.2 릴리스 노트에서:
 
 - [Jetson Linux 39.2.0 릴리스 노트(PDF)](https://docs.nvidia.com/jetson/archives/r39.2/ReleaseNotes/Jetson_Linux_Release_Notes_r39.2.pdf) — *새로운 기능*, 알려진 문제(2026-09-23 확인)
 - [JetPack SDK 다운로드](https://developer.nvidia.com/embedded/jetpack/downloads) (2026-09-23 확인) — ⚠️ 구성 요소 표가 일부 행에서 뒤처져 있습니다; 7.2.1 시스템이 실제로 설치하는 버전은 [시스템 검증](./verify-your-system.md)을 참조하십시오
-- [Seeed Studio JetPack 7.2 리소스 허브](https://wiki.seeedstudio.com/jetpack_7_2_resource_hub/) — 보조 자료; 마이그레이션 주제 구성에 사용(2026-09-23 확인)
+- [Seeed Studio JetPack 7.2 리소스 허브](https://wiki.seeedstudio.com/jetpack_7_2_resource_hub/) — 보조 자료(2026-09-23 확인)
 
 ---
 

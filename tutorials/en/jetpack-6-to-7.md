@@ -65,7 +65,7 @@ From the Jetson Linux 39.2 release notes:
 
 - [Jetson Linux 39.2.0 Release Notes (PDF)](https://docs.nvidia.com/jetson/archives/r39.2/ReleaseNotes/Jetson_Linux_Release_Notes_r39.2.pdf) — *What's New*, known issues (checked 2026-09-23)
 - [JetPack SDK Downloads](https://developer.nvidia.com/embedded/jetpack/downloads) (checked 2026-09-23) — ⚠️ its component table lags on some rows; for the versions a 7.2.1 system actually installs see [Verify Your System](./verify-your-system.md)
-- [Seeed Studio JetPack 7.2 Resource Hub](https://wiki.seeedstudio.com/jetpack_7_2_resource_hub/) — secondary source; used for migration-topic organization (checked 2026-09-23)
+- [Seeed Studio JetPack 7.2 Resource Hub](https://wiki.seeedstudio.com/jetpack_7_2_resource_hub/) — secondary source (checked 2026-09-23)
 
 ---
 

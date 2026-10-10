@@ -64,7 +64,7 @@ description: >-
 
 - [Jetson Linux 39.2.0 发行说明(PDF)](https://docs.nvidia.com/jetson/archives/r39.2/ReleaseNotes/Jetson_Linux_Release_Notes_r39.2.pdf)——*What's New*、已知问题(检查于 2026-09-23)
 - [JetPack SDK 下载](https://developer.nvidia.com/embedded/jetpack/downloads)(检查于 2026-09-23)——⚠️ 其组件表在部分行上滞后;7.2.1 系统实际安装的版本请参见[验证你的系统](./verify-your-system.md)
-- [Seeed Studio JetPack 7.2 资源中心](https://wiki.seeedstudio.com/jetpack_7_2_resource_hub/)——次要来源;仅用于迁移主题的组织(检查于 2026-09-23)
+- [Seeed Studio JetPack 7.2 资源中心](https://wiki.seeedstudio.com/jetpack_7_2_resource_hub/)——次要来源(检查于 2026-09-23)
 
 ---
 

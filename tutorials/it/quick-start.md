@@ -59,7 +59,7 @@ Con un display collegato:
 ![Desktop Ubuntu dopo la configurazione iniziale](../../images/jetson-agx-orin/ubuntu_initial_desktop_1280x720.png)
 
 La configurazione headless è possibile anche da un altro computer — vedere la
-guida Quick Start di NVIDIA (link in fondo) per il cablaggio esatto.
+[guida Quick Start di NVIDIA](https://docs.nvidia.com/jetson/agx-orin-devkit/user-guide/latest/quick_start.html) per il cablaggio esatto.
 
 > **Suggerimento Juxi:** Se prevede di usare il sistema da un SSD NVMe, tenga
 > presente il Passo 2 — l'installer ISO può installare direttamente
@@ -79,7 +79,7 @@ mostra una release più vecchia, aggiorni prima a L4T r35.5 o versione successiv
 (vedere le *Avvertenze* di seguito).
 
 1. **Scarichi la Jetson ISO** per JetPack 7.2.1 / L4T r39.2.1:
-   <https://developer.nvidia.com/downloads/embedded/l4t/r39_release_v2.1/iso>
+   <https://developer.nvidia.com/downloads/embedded/l4t/r39_release_v2.1/iso/jetsoninstaller-r39.2.1-2026-08-07-18-30-47-arm64.iso>
 2. **Crei la chiavetta USB di installazione.** Scriva l'ISO su una chiavetta USB con
    [Balena Etcher](https://etcher.balena.io) ("Flash from file" → selezioni la ISO
    → selezioni la chiavetta USB).
@@ -90,7 +90,7 @@ mostra una release più vecchia, aggiorni prima a L4T r35.5 o versione successiv
    e selezioni la chiavetta USB.
 4. **Avvii e installi:**
    - Se compare la richiesta di confermare un **aggiornamento capsule QSPI**, prema `Y`. Questo aggiornamento firmware viene eseguito *prima* dell'installazione ISO e viene eseguito **due volte**. Non lo salti — è necessario per la compatibilità. Se perde la richiesta, riavvii l'installazione e lo confermi quando viene richiesto.
-   - Nel menu GRUB, selezioni **Install Jetson ISO r39.2.1** e prema Invio.
+   - Nel menu GRUB, selezioni **Install Jetson ISO** e prema Invio.
    - Scelga il target di archiviazione con i tasti freccia: **eMMC** (archiviazione interna predefinita) o **NVMe** (consigliato se ha installato un SSD).
    - L'installazione richiede circa 15 minuti, con l'output di testo che scorre sullo schermo.
 5. **Rimuova la chiavetta USB** dopo che l'installazione è completata e il sistema si è riavviato — altrimenti il kit potrebbe avviarsi di nuovo dalla chiavetta invece che dal nuovo sistema.
@@ -108,7 +108,7 @@ mostra una release più vecchia, aggiorni prima a L4T r35.5 o versione successiv
 *La richiesta di aggiornamento capsule QSPI — prema `Y`. È necessaria per la compatibilità e viene eseguita due volte.*
 
 ![Menu GRUB della Jetson ISO](../../images/jetson-agx-orin/jetson-iso_grub-menu-r39-top.png)
-*Selezioni "Install Jetson ISO r39.2.1".*
+*Selezioni "Install Jetson ISO".*
 
 ![Opzioni del target di archiviazione nel menu GRUB](../../images/jetson-agx-orin/jetson-iso_grub-menu-options.png)
 *Scelga eMMC o NVMe come target di installazione.*

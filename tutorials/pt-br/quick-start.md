@@ -58,7 +58,7 @@ Com um monitor conectado:
 ![Área de trabalho do Ubuntu após a configuração inicial](../../images/jetson-agx-orin/ubuntu_initial_desktop_1280x720.png)
 
 A configuração sem monitor também é possível a partir de outro computador —
-consulte o Guia de Início Rápido da NVIDIA (link no final da página) para saber
+consulte o [Guia de Início Rápido da NVIDIA](https://docs.nvidia.com/jetson/agx-orin-devkit/user-guide/latest/quick_start.html) para saber
 as conexões exatas.
 
 > **Dica da Juxi:** Se você pretende rodar o sistema a partir de um NVMe SSD,
@@ -79,7 +79,7 @@ mostrar uma versão mais antiga, atualize primeiro para L4T r35.5 ou mais recent
 (veja *Ressalvas* abaixo).
 
 1. **Baixe a Jetson ISO** para JetPack 7.2.1 / L4T r39.2.1:
-   <https://developer.nvidia.com/downloads/embedded/l4t/r39_release_v2.1/iso>
+   <https://developer.nvidia.com/downloads/embedded/l4t/r39_release_v2.1/iso/jetsoninstaller-r39.2.1-2026-08-07-18-30-47-arm64.iso>
 2. **Crie o USB de instalação.** Grave a ISO em um pen drive com o
    [Balena Etcher](https://etcher.balena.io) ("Flash from file" → selecione a ISO
    → selecione o pen drive).
@@ -95,7 +95,7 @@ mostrar uma versão mais antiga, atualize primeiro para L4T r35.5 ou mais recent
      instalação da ISO e é executada **duas vezes**. Não a ignore — ela é
      necessária para a compatibilidade. Se você perder o prompt, reinicie a
      instalação e confirme quando ele aparecer.
-   - No menu do GRUB, selecione **Install Jetson ISO r39.2.1** e pressione Enter.
+   - No menu do GRUB, selecione **Install Jetson ISO** e pressione Enter.
    - Escolha o destino de armazenamento com as teclas de seta: **eMMC**
      (armazenamento interno padrão) ou **NVMe** (recomendado se você instalou um
      SSD).
@@ -119,7 +119,7 @@ mostrar uma versão mais antiga, atualize primeiro para L4T r35.5 ou mais recent
 *O prompt da atualização de cápsula QSPI — pressione `Y`. Ela é necessária para a compatibilidade e é executada duas vezes.*
 
 ![Menu GRUB da Jetson ISO](../../images/jetson-agx-orin/jetson-iso_grub-menu-r39-top.png)
-*Selecione "Install Jetson ISO r39.2.1".*
+*Selecione "Install Jetson ISO".*
 
 ![Opções de destino de armazenamento no menu GRUB](../../images/jetson-agx-orin/jetson-iso_grub-menu-options.png)
 *Escolha eMMC ou NVMe como destino da instalação.*
