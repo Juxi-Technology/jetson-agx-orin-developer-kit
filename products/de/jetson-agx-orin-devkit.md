@@ -51,15 +51,15 @@ von der NVIDIA-Downloadseite).*
 3. In Ubuntu booten und die Ersteinrichtung abschließen
 4. Mit dem Jetson-ISO auf JetPack 7.2.1 aktualisieren (USB-Stick, kein Host-PC erforderlich)
 
-Komplette Anleitung: **[Schnellstart](../../tutorials/de/quick-start.md)**
+Komplette Anleitung: **[Schnellstart](../../tutorials/de/01-quick-start.md)**
 
 ## Dokumentation (Jetson AGX Orin Serie)
 
-- [Schnellstart](../../tutorials/de/quick-start.md) · [Flashen & Updates](../../tutorials/de/flashing-and-updates.md) · [System überprüfen](../../tutorials/de/verify-your-system.md)
-- [Schnittstellen & Hardware-Layout](../../tutorials/de/interfaces.md) · [Fehlerbehebung](../../tutorials/de/troubleshooting.md) · [FAQ](../../tutorials/de/faq.md)
-- [Lokale LLM-Inferenz](../../tutorials/de/local-llm.md) · [Agentic AI (NemoClaw)](../../tutorials/de/agentic-ai.md) · [DeepStream-Videoanalyse](../../tutorials/de/deepstream.md)
-- [Robotik (Stand der Dinge)](../../tutorials/de/robotics.md) · [Speichereffizienz](../../tutorials/de/memory-efficiency.md)
-- [Migration von JetPack 6.x](../../tutorials/de/jetpack-6-to-7.md) · [Glossar](../../tutorials/de/glossary.md)
+- [Schnellstart](../../tutorials/de/01-quick-start.md) · [Flashen & Updates](../../tutorials/de/02-flashing-and-updates.md) · [System überprüfen](../../tutorials/de/03-verify-your-system.md)
+- [Schnittstellen & Hardware-Layout](../../tutorials/de/05-interfaces.md) · [Fehlerbehebung](../../tutorials/de/14-troubleshooting.md) · [FAQ](../../tutorials/de/13-faq.md)
+- [Lokale LLM-Inferenz](../../tutorials/de/06-local-llm.md) · [Agentic AI (NemoClaw)](../../tutorials/de/07-agentic-ai.md) · [DeepStream-Videoanalyse](../../tutorials/de/08-deepstream.md)
+- [Robotik (Stand der Dinge)](../../tutorials/de/09-robotics.md) · [Speichereffizienz](../../tutorials/de/10-memory-efficiency.md)
+- [Migration von JetPack 6.x](../../tutorials/de/11-jetpack-6-to-7.md) · [Glossar](../../tutorials/de/15-glossary.md)
 
 ## Empfohlenes Zubehör
 

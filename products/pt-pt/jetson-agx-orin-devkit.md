@@ -51,15 +51,15 @@ NVIDIA (ligada a partir da página de descarregamentos da NVIDIA).*
 3. Arranque para o Ubuntu e conclua a configuração inicial
 4. Atualize para o JetPack 7.2.1 com a Jetson ISO (unidade flash USB, sem necessidade de PC anfitrião)
 
-Passo a passo completo: **[Início rápido](../../tutorials/pt-pt/quick-start.md)**
+Passo a passo completo: **[Início rápido](../../tutorials/pt-pt/01-quick-start.md)**
 
 ## Documentação (série Jetson AGX Orin)
 
-- [Início rápido](../../tutorials/pt-pt/quick-start.md) · [Gravação e atualizações](../../tutorials/pt-pt/flashing-and-updates.md) · [Verificar o sistema](../../tutorials/pt-pt/verify-your-system.md)
-- [Interfaces e layout do hardware](../../tutorials/pt-pt/interfaces.md) · [Resolução de problemas](../../tutorials/pt-pt/troubleshooting.md) · [FAQ](../../tutorials/pt-pt/faq.md)
-- [Inferência local de LLM](../../tutorials/pt-pt/local-llm.md) · [IA agêntica (NemoClaw)](../../tutorials/pt-pt/agentic-ai.md) · [Análise de vídeo com DeepStream](../../tutorials/pt-pt/deepstream.md)
-- [Robótica — ponto de situação](../../tutorials/pt-pt/robotics.md) · [Eficiência de memória](../../tutorials/pt-pt/memory-efficiency.md)
-- [Migrar do JetPack 6.x](../../tutorials/pt-pt/jetpack-6-to-7.md) · [Glossário](../../tutorials/pt-pt/glossary.md)
+- [Início rápido](../../tutorials/pt-pt/01-quick-start.md) · [Gravação e atualizações](../../tutorials/pt-pt/02-flashing-and-updates.md) · [Verificar o sistema](../../tutorials/pt-pt/03-verify-your-system.md)
+- [Interfaces e layout do hardware](../../tutorials/pt-pt/05-interfaces.md) · [Resolução de problemas](../../tutorials/pt-pt/14-troubleshooting.md) · [FAQ](../../tutorials/pt-pt/13-faq.md)
+- [Inferência local de LLM](../../tutorials/pt-pt/06-local-llm.md) · [IA agêntica (NemoClaw)](../../tutorials/pt-pt/07-agentic-ai.md) · [Análise de vídeo com DeepStream](../../tutorials/pt-pt/08-deepstream.md)
+- [Robótica — ponto de situação](../../tutorials/pt-pt/09-robotics.md) · [Eficiência de memória](../../tutorials/pt-pt/10-memory-efficiency.md)
+- [Migrar do JetPack 6.x](../../tutorials/pt-pt/11-jetpack-6-to-7.md) · [Glossário](../../tutorials/pt-pt/15-glossary.md)
 
 ## Acessórios recomendados
 

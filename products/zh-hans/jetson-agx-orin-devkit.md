@@ -45,15 +45,15 @@ NVIDIA® Jetson AGX Orin™ 开发者套件是 Jetson Orin 家族的旗舰级开
 3. 启动进入 Ubuntu，完成首次设置
 4. 用 Jetson ISO 更新到 JetPack 7.2.1（U 盘，无需主机 PC）
 
-完整流程见：**[快速开始](../../tutorials/zh-hans/quick-start.md)**
+完整流程见：**[快速开始](../../tutorials/zh-hans/01-quick-start.md)**
 
 ## 文档（Jetson AGX Orin 系列）
 
-- [快速开始](../../tutorials/zh-hans/quick-start.md) · [刷机与更新](../../tutorials/zh-hans/flashing-and-updates.md) · [验证你的系统](../../tutorials/zh-hans/verify-your-system.md)
-- [接口与硬件布局](../../tutorials/zh-hans/interfaces.md) · [故障排查](../../tutorials/zh-hans/troubleshooting.md) · [常见问题 FAQ](../../tutorials/zh-hans/faq.md)
-- [本地 LLM 推理](../../tutorials/zh-hans/local-llm.md) · [智能体 AI (NemoClaw)](../../tutorials/zh-hans/agentic-ai.md) · [DeepStream 视频分析](../../tutorials/zh-hans/deepstream.md)
-- [机器人（现状）](../../tutorials/zh-hans/robotics.md) · [内存效率](../../tutorials/zh-hans/memory-efficiency.md)
-- [从 JetPack 6.x 迁移](../../tutorials/zh-hans/jetpack-6-to-7.md) · [术语表](../../tutorials/zh-hans/glossary.md)
+- [快速开始](../../tutorials/zh-hans/01-quick-start.md) · [刷机与更新](../../tutorials/zh-hans/02-flashing-and-updates.md) · [验证你的系统](../../tutorials/zh-hans/03-verify-your-system.md)
+- [接口与硬件布局](../../tutorials/zh-hans/05-interfaces.md) · [故障排查](../../tutorials/zh-hans/14-troubleshooting.md) · [常见问题 FAQ](../../tutorials/zh-hans/13-faq.md)
+- [本地 LLM 推理](../../tutorials/zh-hans/06-local-llm.md) · [智能体 AI (NemoClaw)](../../tutorials/zh-hans/07-agentic-ai.md) · [DeepStream 视频分析](../../tutorials/zh-hans/08-deepstream.md)
+- [机器人（现状）](../../tutorials/zh-hans/09-robotics.md) · [内存效率](../../tutorials/zh-hans/10-memory-efficiency.md)
+- [从 JetPack 6.x 迁移](../../tutorials/zh-hans/11-jetpack-6-to-7.md) · [术语表](../../tutorials/zh-hans/15-glossary.md)
 
 ## 推荐配件
 

@@ -51,15 +51,15 @@ NVIDIA (liée depuis la page de téléchargements NVIDIA).*
 3. Démarrez dans Ubuntu et effectuez la configuration initiale
 4. Mettez à jour vers JetPack 7.2.1 avec le Jetson ISO (clé USB, aucun PC hôte nécessaire)
 
-Parcours complet : **[Démarrage rapide](../../tutorials/fr/quick-start.md)**
+Parcours complet : **[Démarrage rapide](../../tutorials/fr/01-quick-start.md)**
 
 ## Documentation (série Jetson AGX Orin)
 
-- [Démarrage rapide](../../tutorials/fr/quick-start.md) · [Flashage et mises à jour](../../tutorials/fr/flashing-and-updates.md) · [Vérifier votre système](../../tutorials/fr/verify-your-system.md)
-- [Interfaces et disposition matérielle](../../tutorials/fr/interfaces.md) · [Dépannage](../../tutorials/fr/troubleshooting.md) · [FAQ](../../tutorials/fr/faq.md)
-- [Inférence LLM locale](../../tutorials/fr/local-llm.md) · [IA agentique (NemoClaw)](../../tutorials/fr/agentic-ai.md) · [Analyse vidéo DeepStream](../../tutorials/fr/deepstream.md)
-- [Robotique — état des lieux](../../tutorials/fr/robotics.md) · [Efficacité mémoire](../../tutorials/fr/memory-efficiency.md)
-- [Migration depuis JetPack 6.x](../../tutorials/fr/jetpack-6-to-7.md) · [Glossaire](../../tutorials/fr/glossary.md)
+- [Démarrage rapide](../../tutorials/fr/01-quick-start.md) · [Flashage et mises à jour](../../tutorials/fr/02-flashing-and-updates.md) · [Vérifier votre système](../../tutorials/fr/03-verify-your-system.md)
+- [Interfaces et disposition matérielle](../../tutorials/fr/05-interfaces.md) · [Dépannage](../../tutorials/fr/14-troubleshooting.md) · [FAQ](../../tutorials/fr/13-faq.md)
+- [Inférence LLM locale](../../tutorials/fr/06-local-llm.md) · [IA agentique (NemoClaw)](../../tutorials/fr/07-agentic-ai.md) · [Analyse vidéo DeepStream](../../tutorials/fr/08-deepstream.md)
+- [Robotique — état des lieux](../../tutorials/fr/09-robotics.md) · [Efficacité mémoire](../../tutorials/fr/10-memory-efficiency.md)
+- [Migration depuis JetPack 6.x](../../tutorials/fr/11-jetpack-6-to-7.md) · [Glossaire](../../tutorials/fr/15-glossary.md)
 
 ## Accessoires recommandés
 

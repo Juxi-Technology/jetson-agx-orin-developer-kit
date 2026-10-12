@@ -45,15 +45,15 @@ NVIDIA® Jetson AGX Orin™ 開發者套件是 Jetson Orin 家族的旗艦級開
 3. 開機進入 Ubuntu,完成首次設定
 4. 使用 Jetson ISO 更新至 JetPack 7.2.1(USB 隨身碟即可,無需主機 PC)
 
-完整操作流程:**[快速開始](../../tutorials/zh-hant/quick-start.md)**
+完整操作流程:**[快速開始](../../tutorials/zh-hant/01-quick-start.md)**
 
 ## 文檔(Jetson AGX Orin 系列)
 
-- [快速開始](../../tutorials/zh-hant/quick-start.md) · [刷機與更新](../../tutorials/zh-hant/flashing-and-updates.md) · [驗證你的系統](../../tutorials/zh-hant/verify-your-system.md)
-- [接口與硬件佈局](../../tutorials/zh-hant/interfaces.md) · [故障排除](../../tutorials/zh-hant/troubleshooting.md) · [常見問題](../../tutorials/zh-hant/faq.md)
-- [本地 LLM 推論](../../tutorials/zh-hant/local-llm.md) · [智能體 AI (NemoClaw)](../../tutorials/zh-hant/agentic-ai.md) · [DeepStream 視頻分析](../../tutorials/zh-hant/deepstream.md)
-- [機器人(現狀)](../../tutorials/zh-hant/robotics.md) · [記憶體效率](../../tutorials/zh-hant/memory-efficiency.md)
-- [從 JetPack 6.x 遷移](../../tutorials/zh-hant/jetpack-6-to-7.md) · [術語表](../../tutorials/zh-hant/glossary.md)
+- [快速開始](../../tutorials/zh-hant/01-quick-start.md) · [刷機與更新](../../tutorials/zh-hant/02-flashing-and-updates.md) · [驗證你的系統](../../tutorials/zh-hant/03-verify-your-system.md)
+- [接口與硬件佈局](../../tutorials/zh-hant/05-interfaces.md) · [故障排除](../../tutorials/zh-hant/14-troubleshooting.md) · [常見問題](../../tutorials/zh-hant/13-faq.md)
+- [本地 LLM 推論](../../tutorials/zh-hant/06-local-llm.md) · [智能體 AI (NemoClaw)](../../tutorials/zh-hant/07-agentic-ai.md) · [DeepStream 視頻分析](../../tutorials/zh-hant/08-deepstream.md)
+- [機器人(現狀)](../../tutorials/zh-hant/09-robotics.md) · [記憶體效率](../../tutorials/zh-hant/10-memory-efficiency.md)
+- [從 JetPack 6.x 遷移](../../tutorials/zh-hant/11-jetpack-6-to-7.md) · [術語表](../../tutorials/zh-hant/15-glossary.md)
 
 ## 推薦配件
 

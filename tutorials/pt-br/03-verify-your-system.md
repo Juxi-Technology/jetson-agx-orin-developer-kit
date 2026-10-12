@@ -1,0 +1,122 @@
+---
+title: Verifique seu sistema — checklist de versão e componentes
+description: >-
+  Confirme se seu kit de desenvolvedor Jetson AGX Orin executa o JetPack 7.2.1
+  com a pilha completa de componentes — comandos de versão e a lista de
+  componentes esperada.
+---
+
+# Verifique seu sistema
+
+Depois de configurar ou atualizar seu kit, confirme duas coisas: a **versão do
+BSP** e a **pilha de componentes do JetPack instalada**. As duas verificações
+levam menos de um minuto.
+
+## Etapa 1 — Verifique a versão do L4T (BSP)
+
+```bash
+cat /etc/nv_tegra_release
+```
+
+Um sistema com **JetPack 7.2.1** reporta:
+
+```
+# R39 (release), REVISION: 2.1, ...
+```
+
+Se a saída mostrar uma versão mais antiga (por exemplo, R35), atualize o BSP
+primeiro — veja **[Gravação e atualizações](./02-flashing-and-updates.md)**.
+
+## Etapa 2 — Verifique os componentes do JetPack
+
+Os componentes do JetPack (CUDA, cuDNN, TensorRT, ...) são instalados como
+pacotes Debian. Verifique se o metapacote está presente:
+
+```bash
+dpkg -l | grep -i nvidia-jetpack
+```
+
+E confirme se o CUDA Toolkit está disponível:
+
+```bash
+nvcc --version
+```
+
+Saída esperada para esta versão: **CUDA 13.2**. Se o `nvcc` não existir ou o
+metapacote estiver ausente, instale os componentes com:
+
+```bash
+sudo apt update
+sudo apt install nvidia-jetpack
+```
+
+(Isso leva cerca de uma hora, dependendo da velocidade da conexão — consulte
+[Início rápido → Etapa 3](./01-quick-start.md).)
+
+## Etapa 3 — Versões esperadas para o JetPack 7.2.1
+
+A tabela abaixo lista o que o **JetPack 7.2.1 / Jetson Linux 39.2.1** realmente
+instala, verificado em 2026-09-26 pela cadeia de dependências do `nvidia-jetpack`
+7.2.1 no [repositório apt do Jetson da NVIDIA](https://repo.download.nvidia.com/jetson/common/dists/r39.2/main/binary-arm64/Packages):
+
+| Componente | Versão |
+|---|---|
+| Jetson Linux (L4T) | 39.2.1 |
+| Sistema operacional | Ubuntu 24.04 (L4T) |
+| Kernel | 6.8 |
+| CUDA | 13.2.2 |
+| cuDNN | 9.20.0 |
+| TensorRT | 10.16.2 |
+| VPI (visão computacional) | 4.1.4 |
+| V4L2 | 1.22.1 |
+| DeepStream SDK | 9.1 |
+| Holoscan SDK | 3.9.0 |
+| Nsight Systems | 2026.3 |
+| NVIDIA Container Toolkit | 1.19 (com imagem ISO) |
+| Isaac ROS | *"Em breve" na página do JetPack* — lançado separadamente; veja a nota abaixo |
+
+> **Nota da Juxi:** o `dpkg` pode mostrar versões de pacotes com sufixos de
+> compilação ou revisão (por exemplo `13.2.2-1`, ou `7.2.1-b49` para pacotes
+> L4T); isso é normal — compare o número da versão, não o sufixo.
+>
+> **Onde a página de downloads do JetPack fica desatualizada (verificado em
+> 2026-09-26):** a tabela-resumo dessa página ainda mostra CUDA **13.2.1** e VPI
+> **4.1.3** — são os valores do JetPack **7.2**. O `nvidia-jetpack` 7.2.1 instala
+> CUDA **13.2.2** (build 13.2.86) e VPI **4.1.4**. O repositório apt acima é a
+> fonte autoritativa.
+>
+> **Isaac ROS (reverificado em 2026-09-26):** a página de downloads do JetPack
+> ainda exibe "em breve", mas o Isaac ROS oferece suporte ao Jetson Orin +
+> JetPack 7.2 desde o lançamento **4.6.0** (2026-08-18). O Isaac ROS é lançado
+> de forma independente do JetPack, portanto suas próprias notas de versão são a
+> fonte decisiva. Usuários de robótica: leiam
+> [Robótica no JetPack 7.2](./09-robotics.md) antes de
+> planejar trabalhos que dependam dele.
+
+## Opcional — uma olhada rápida na atividade do sistema
+
+O `tegrastats` (incluído no Jetson Linux) exibe o uso de CPU/GPU/memória em
+tempo real:
+
+```bash
+tegrastats
+```
+
+Pressione `Ctrl`+`C` para parar.
+
+## Se algo estiver faltando
+
+1. Execute novamente `sudo apt update && sudo apt install nvidia-jetpack`.
+2. Confirme se o `apt dist-upgrade` + reinicialização do fluxo de configuração foram concluídos (consulte [Início rápido → Etapa 3](./01-quick-start.md)).
+3. Verifique o espaço em disco (`df -h`) e a conectividade com a internet.
+4. Ainda com problemas? Consulte a **[Solução de problemas](./14-troubleshooting.md)**.
+
+## Fontes
+
+- [JetPack SDK Setup — Jetson AGX Orin Developer Kit User Guide](https://docs.nvidia.com/jetson/agx-orin-devkit/user-guide/latest/setup_jetpack.html) (verificado em 2026-09-23)
+- [JetPack SDK Downloads and Release Notes](https://developer.nvidia.com/embedded/jetpack/downloads) (verificado em 2026-09-23)
+
+---
+
+NVIDIA® e Jetson™ são marcas registradas da NVIDIA Corporation. Esta página é
+publicada pela Juxi Technology e não é uma publicação da NVIDIA.

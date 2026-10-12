@@ -45,15 +45,15 @@ NVIDIA® Jetson AGX Orin™ 開発キットは、Jetson Orin ファミリーの�
 3. Ubuntu を起動し、初回セットアップを完了します
 4. Jetson ISO で JetPack 7.2.1 に更新します(USB ドライブ、ホスト PC 不要)
 
-詳細な手順:**[クイックスタート](../../tutorials/ja/quick-start.md)**
+詳細な手順:**[クイックスタート](../../tutorials/ja/01-quick-start.md)**
 
 ## ドキュメント(Jetson AGX Orin シリーズ)
 
-- [クイックスタート](../../tutorials/ja/quick-start.md) · [書き込みと更新](../../tutorials/ja/flashing-and-updates.md) · [システムの確認](../../tutorials/ja/verify-your-system.md)
-- [インターフェースとハードウェアレイアウト](../../tutorials/ja/interfaces.md) · [トラブルシューティング](../../tutorials/ja/troubleshooting.md) · [FAQ](../../tutorials/ja/faq.md)
-- [ローカル LLM 推論](../../tutorials/ja/local-llm.md) · [エージェント AI(NemoClaw)](../../tutorials/ja/agentic-ai.md) · [DeepStream 映像解析](../../tutorials/ja/deepstream.md)
-- [ロボティクス(現状)](../../tutorials/ja/robotics.md) · [メモリ効率](../../tutorials/ja/memory-efficiency.md)
-- [JetPack 6.x からの移行](../../tutorials/ja/jetpack-6-to-7.md) · [用語集](../../tutorials/ja/glossary.md)
+- [クイックスタート](../../tutorials/ja/01-quick-start.md) · [書き込みと更新](../../tutorials/ja/02-flashing-and-updates.md) · [システムの確認](../../tutorials/ja/03-verify-your-system.md)
+- [インターフェースとハードウェアレイアウト](../../tutorials/ja/05-interfaces.md) · [トラブルシューティング](../../tutorials/ja/14-troubleshooting.md) · [FAQ](../../tutorials/ja/13-faq.md)
+- [ローカル LLM 推論](../../tutorials/ja/06-local-llm.md) · [エージェント AI(NemoClaw)](../../tutorials/ja/07-agentic-ai.md) · [DeepStream 映像解析](../../tutorials/ja/08-deepstream.md)
+- [ロボティクス(現状)](../../tutorials/ja/09-robotics.md) · [メモリ効率](../../tutorials/ja/10-memory-efficiency.md)
+- [JetPack 6.x からの移行](../../tutorials/ja/11-jetpack-6-to-7.md) · [用語集](../../tutorials/ja/15-glossary.md)
 
 ## 推奨アクセサリ
 

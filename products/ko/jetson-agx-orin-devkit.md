@@ -45,15 +45,15 @@ NVIDIA® Jetson AGX Orin™ 개발자 키트는 Jetson Orin 패밀리의 플래�
 3. Ubuntu로 부팅하여 최초 설정을 완료합니다
 4. Jetson ISO로 JetPack 7.2.1로 업데이트합니다(USB 스틱 사용, 호스트 PC 불필요)
 
-전체 안내: **[빠른 시작](../../tutorials/ko/quick-start.md)**
+전체 안내: **[빠른 시작](../../tutorials/ko/01-quick-start.md)**
 
 ## 문서 (Jetson AGX Orin 시리즈)
 
-- [빠른 시작](../../tutorials/ko/quick-start.md) · [플래싱 및 업데이트](../../tutorials/ko/flashing-and-updates.md) · [시스템 검증](../../tutorials/ko/verify-your-system.md)
-- [인터페이스 및 하드웨어 레이아웃](../../tutorials/ko/interfaces.md) · [문제 해결](../../tutorials/ko/troubleshooting.md) · [FAQ](../../tutorials/ko/faq.md)
-- [로컬 LLM 추론](../../tutorials/ko/local-llm.md) · [에이전트 AI (NemoClaw)](../../tutorials/ko/agentic-ai.md) · [DeepStream 영상 분석](../../tutorials/ko/deepstream.md)
-- [로보틱스(현황)](../../tutorials/ko/robotics.md) · [메모리 효율](../../tutorials/ko/memory-efficiency.md)
-- [JetPack 6.x에서 마이그레이션](../../tutorials/ko/jetpack-6-to-7.md) · [용어집](../../tutorials/ko/glossary.md)
+- [빠른 시작](../../tutorials/ko/01-quick-start.md) · [플래싱 및 업데이트](../../tutorials/ko/02-flashing-and-updates.md) · [시스템 검증](../../tutorials/ko/03-verify-your-system.md)
+- [인터페이스 및 하드웨어 레이아웃](../../tutorials/ko/05-interfaces.md) · [문제 해결](../../tutorials/ko/14-troubleshooting.md) · [FAQ](../../tutorials/ko/13-faq.md)
+- [로컬 LLM 추론](../../tutorials/ko/06-local-llm.md) · [에이전트 AI (NemoClaw)](../../tutorials/ko/07-agentic-ai.md) · [DeepStream 영상 분석](../../tutorials/ko/08-deepstream.md)
+- [로보틱스(현황)](../../tutorials/ko/09-robotics.md) · [메모리 효율](../../tutorials/ko/10-memory-efficiency.md)
+- [JetPack 6.x에서 마이그레이션](../../tutorials/ko/11-jetpack-6-to-7.md) · [용어집](../../tutorials/ko/15-glossary.md)
 
 ## 추천 액세서리
 

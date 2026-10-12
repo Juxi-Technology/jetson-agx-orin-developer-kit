@@ -51,15 +51,15 @@ percezione per la robotica, IA generativa edge.
 3. Avviare Ubuntu e completare la configurazione iniziale
 4. Aggiornare a JetPack 7.2.1 con la Jetson ISO (chiavetta USB, senza PC host)
 
-Procedura completa: **[Avvio rapido](../../tutorials/it/quick-start.md)**
+Procedura completa: **[Avvio rapido](../../tutorials/it/01-quick-start.md)**
 
 ## Documentazione (serie Jetson AGX Orin)
 
-- [Avvio rapido](../../tutorials/it/quick-start.md) · [Flashing e aggiornamenti](../../tutorials/it/flashing-and-updates.md) · [Verificare il sistema](../../tutorials/it/verify-your-system.md)
-- [Interfacce e layout hardware](../../tutorials/it/interfaces.md) · [Risoluzione dei problemi](../../tutorials/it/troubleshooting.md) · [FAQ](../../tutorials/it/faq.md)
-- [Inferenza LLM locale](../../tutorials/it/local-llm.md) · [IA agentica (NemoClaw)](../../tutorials/it/agentic-ai.md) · [Analisi video DeepStream](../../tutorials/it/deepstream.md)
-- [Robotica — situazione attuale](../../tutorials/it/robotics.md) · [Efficienza della memoria](../../tutorials/it/memory-efficiency.md)
-- [Migrazione da JetPack 6.x](../../tutorials/it/jetpack-6-to-7.md) · [Glossario](../../tutorials/it/glossary.md)
+- [Avvio rapido](../../tutorials/it/01-quick-start.md) · [Flashing e aggiornamenti](../../tutorials/it/02-flashing-and-updates.md) · [Verificare il sistema](../../tutorials/it/03-verify-your-system.md)
+- [Interfacce e layout hardware](../../tutorials/it/05-interfaces.md) · [Risoluzione dei problemi](../../tutorials/it/14-troubleshooting.md) · [FAQ](../../tutorials/it/13-faq.md)
+- [Inferenza LLM locale](../../tutorials/it/06-local-llm.md) · [IA agentica (NemoClaw)](../../tutorials/it/07-agentic-ai.md) · [Analisi video DeepStream](../../tutorials/it/08-deepstream.md)
+- [Robotica — situazione attuale](../../tutorials/it/09-robotics.md) · [Efficienza della memoria](../../tutorials/it/10-memory-efficiency.md)
+- [Migrazione da JetPack 6.x](../../tutorials/it/11-jetpack-6-to-7.md) · [Glossario](../../tutorials/it/15-glossary.md)
 
 ## Accessori consigliati
 

@@ -1,0 +1,57 @@
+---
+title: ダウンロードと公式リンク
+description: >-
+  Jetson AGX Orin 開発キット向けの公式 JetPack 7.2.1 / Jetson Linux 39.2.1
+  リソースへの直リンク — イメージ、ツール、ドキュメント、コミュニティ
+  リソース。
+---
+
+# ダウンロードと公式リンク
+
+このページのすべての項目は **NVIDIA 公式リソース**へリンクしており、**2026-09-23**
+に確認済みです(コンポーネントバージョンに関する注記を 2026-09-26 に追加)。更新情報については、最初の 2 つのリンクを正規の出発点としてください。
+
+## JetPack 7.2.1 / Jetson Linux 39.2.1
+
+- [JetPack SDK のダウンロードとリリースノート](https://developer.nvidia.com/embedded/jetpack/downloads) — **正規のハブ**:リリース情報とダウンロード。⚠️ **コンポーネント一覧は一部の行で情報が遅れています**:2026-09-26 時点でも VPI と PVA の行は JetPack **7.2** の値のままで、Isaac ROS の行も「coming soon」のままです(4.6.0 以降はリリース済み)。JetPack 7.2.1 システムに実際にインストールされるバージョンについては、NVIDIA の [Jetson apt リポジトリ](https://repo.download.nvidia.com/jetson/common/dists/r39.2/main/binary-arm64/Packages)をご利用ください — [システムの確認](./03-verify-your-system.md)を参照してください
+- [JetPack ISO イメージ(r39.2.1)](https://developer.nvidia.com/downloads/embedded/l4t/r39_release_v2.1/iso/jetsoninstaller-r39.2.1-2026-08-07-18-30-47-arm64.iso) — 当社の[クイックスタート](./01-quick-start.md)で使用する USB インストールイメージ
+- [NVIDIA SDK Manager](https://developer.nvidia.com/sdk-manager) — ホスト PC 用の書き込みツール
+- [Jetson AGX Orin 用 Yocto イメージ](https://developer.nvidia.com/downloads/embedded/l4t/r39_release_v2.1/yocto2) — 公式の Yocto/OpenEmbedded レシピとイメージ
+- [JetPack アーカイブ](https://developer.nvidia.com/embedded/jetpack-archive) · [Jetson Linux アーカイブ](https://developer.nvidia.com/embedded/jetson-linux-archive) — 旧リリース
+
+## ドキュメント
+
+- [Jetson AGX Orin 開発キット ユーザーガイド](https://docs.nvidia.com/jetson/agx-orin-devkit/user-guide/latest/index.html) — 本キットの主要なリファレンス
+  - [クイックスタート](https://docs.nvidia.com/jetson/agx-orin-devkit/user-guide/latest/quick_start.html) · [BSP のインストール](https://docs.nvidia.com/jetson/agx-orin-devkit/user-guide/latest/setup_bsp.html) · [JetPack SDK のセットアップ](https://docs.nvidia.com/jetson/agx-orin-devkit/user-guide/latest/setup_jetpack.html) · [ハードウェアレイアウト](https://docs.nvidia.com/jetson/agx-orin-devkit/user-guide/latest/hardware_layout.html)
+- [Jetson Linux 39.2.0 リリースノート(PDF)](https://docs.nvidia.com/jetson/archives/r39.2/ReleaseNotes/Jetson_Linux_Release_Notes_r39.2.pdf) — 新機能と**既知の問題**
+- [Jetson Linux 開発者ガイド](https://docs.nvidia.com/jetson/archives/DeveloperGuide) — 書き込みサポート、セキュリティ、カメラ開発、OTA
+- [Jetson Linux API リファレンス](https://docs.nvidia.com/jetson/archives/ApiReference/index.html)
+- [カメラ開発ガイド](https://docs.nvidia.com/jetson/archives/DeveloperGuide/SD/CameraDevelopment.html)
+- キャリアボード仕様書:*NVIDIA Jetson AGX Orin Developer Kit Carrier Board Specification* — NVIDIA の[ダウンロードページ](https://developer.nvidia.com/embedded/downloads)に掲載されています
+
+## ツールとアカウント
+
+- [Balena Etcher](https://etcher.balena.io) — Jetson ISO を USB ドライブに書き込むツール(Windows / macOS / Linux)
+- [NVIDIA Developer Program](https://developer.nvidia.com/developer-program) — SDK Manager のダウンロードには無料のメンバーシップ登録が必要です
+- [NVIDIA Jetson 開発者フォーラム](https://forums.developer.nvidia.com/c/robotics-edge-computing/jetson-embedded-systems/70) — 公式コミュニティサポート
+
+## 学習とエージェント AI(JetPack 7)
+
+- [Jetson AI Lab](https://www.jetson-ai-lab.com) — Jetson 上で AI モデルを実行するためのハンズオンチュートリアル
+- [NVIDIA NemoClaw](https://www.nvidia.com/en-us/ai/nemoclaw) — Jetson 上のエージェント AI。JetPack 7.2 以降は単一コマンドでのインストールに対応
+- [Jetson デバイス側スキル](https://github.com/NVIDIA-AI-IOT/jetson-device-skills) · [Jetson BSP スキル](https://github.com/NVIDIA-AI-IOT/jetson-bsp-skills) — NVIDIA 提供の再利用可能なエージェントスキル
+
+## Juxi Technology
+
+- **製品カタログとアクセサリー:** <https://wiki.juxitech.com/products/> — キット用のアドオン(カメラ、ロボットアーム、センサーなど)、仕様と購入リンク付き
+- **お問い合わせ:** 技術サポート — support@juxitech.com · 営業 — sales@juxitech.com · 製品に関するご質問 — pe@juxitech.com
+
+## 出典
+
+- [JetPack SDK のダウンロードとリリースノート](https://developer.nvidia.com/embedded/jetpack/downloads)(2026-09-23 確認、コンポーネント一覧の注記 2026-09-26)
+- [NVIDIA Jetson apt リポジトリ — Packages インデックス](https://repo.download.nvidia.com/jetson/common/dists/r39.2/main/binary-arm64/Packages) — インストールされるコンポーネントバージョンの正式な情報源(2026-09-26 確認)
+
+---
+
+NVIDIA® および Jetson™ は NVIDIA Corporation の商標です。本ページは
+Juxi Technology によって公開されており、NVIDIA の公式出版物ではありません。
