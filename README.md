@@ -35,10 +35,24 @@ Each language contains the full 16-page series and the product page.
 - [Español](tutorials/es/01-quick-start.md) · [Italiano](tutorials/it/01-quick-start.md)
 - [Português (BR)](tutorials/pt-br/01-quick-start.md) · [Português (PT)](tutorials/pt-pt/01-quick-start.md)
 
+## XLeRobot Docker tutorials
+
+A separate tutorial set ships in [`xlerobot-docker-tutorials/`](xlerobot-docker-tutorials/README.md): pulling and running the prebuilt XLeRobot Docker image on a Jetson, then driving either a whole XLeRobot (two arms + base, 17 servos) or a single SO-ARM101 arm (12 servos). **11 languages**, six pages each.
+
+| # | Folder | Contents |
+|:--:|---|---|
+| 1 | [`deployment/`](xlerobot-docker-tutorials/en/deployment/01-Overview.md) | Pull the image and start the container — read `01-Overview` → `02-Environment-Setup` → `03-Deployment` in order |
+| 2 | [`xlerobot/`](xlerobot-docker-tutorials/en/xlerobot/01-Operation.md) | Operation commands for a whole XLeRobot |
+| 3 | [`lerobot/`](xlerobot-docker-tutorials/en/lerobot/01-Operation.md) | Operation commands for a single SO-ARM101 or a LeKiwi |
+| 4 | [`troubleshooting/`](xlerobot-docker-tutorials/en/troubleshooting/01-Troubleshooting.md) | Common problems and a quick-reference cheat sheet |
+
+> Folders 2 and 3 are **alternatives** — pick the one that matches your hardware. Entry points for all 11 languages are listed in [`xlerobot-docker-tutorials/README.md`](xlerobot-docker-tutorials/README.md).
+
 ## Repository layout
 
 - `tutorials/<language>/` — the documentation series (16 pages per language)
 - `products/<language>/` — product page
+- `xlerobot-docker-tutorials/<language>/` — the XLeRobot Docker tutorial set (six pages per language)
 - `images/` — figures from NVIDIA's official documentation
 
 ## Links
